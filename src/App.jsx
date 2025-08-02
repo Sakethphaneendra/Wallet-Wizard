@@ -79,10 +79,8 @@ function App() {
     return savedTransactions
       ? JSON.parse(savedTransactions)
       : [
-          { id: 1, text: "Momos", amount: -20, date: "03/01/2024, 04:36:36 pm" },
-          { id: 2, text: "Salary", amount: 3000, date: "03/02/2024, 04:36:36 pm" },
-          { id: 3, text: "Book", amount: -100, date: "03/02/2024, 04:36:36 pm" },
-          { id: 4, text: "Bonus", amount: 1500, date: "03/06/2024, 04:36:36 pm" },
+          { id: 1, text: "Salary", amount: 40000, date: "07/05/2025, 08:30:00 am" },
+          { id: 2, text: "EMI", amount: -5000, date: "08/07/2025, 10:00:00 am" },
         ];
   });
 

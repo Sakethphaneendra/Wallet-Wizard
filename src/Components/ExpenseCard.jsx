@@ -39,6 +39,7 @@ const StyledCardContent = styled(CardContent)({
 const Amount = styled(Typography)(({ color }) => ({
   fontSize: "24px",
   fontWeight: "700",
+  
   background: color,
   WebkitBackgroundClip: "text",
   WebkitTextFillColor: "transparent",

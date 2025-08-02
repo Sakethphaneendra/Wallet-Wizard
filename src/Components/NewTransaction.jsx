@@ -51,7 +51,7 @@ const Container = styled(Box)(({ theme }) => ({
   maxWidth: "800px",
   margin: "0 auto",
   transition: "all 0.3s ease",
-  "& > *": { marginTop: "26px" },
+  "& > *": { marginTop: "26px" }, // spacing between all children
 }));
 
 const RowContainer = styled(Box)(() => ({
@@ -116,6 +116,7 @@ const NewTransaction = ({ setTransactions }) => {
 
       <Divider sx={{ my: 1 }} />
 
+      {/* Expense / Income Title with suggestions */}
       <Autocomplete
         freeSolo
         options={suggestions}
@@ -136,7 +137,8 @@ const NewTransaction = ({ setTransactions }) => {
             sx={{
               "& .MuiInputBase-root": {
                 borderRadius: "12px",
-                backgroundColor: theme.palette.mode === "dark" ? "#1e293b" : "#f7f7f7",
+                backgroundColor:
+                  theme.palette.mode === "dark" ? "#1e293b" : "#f7f7f7",
                 boxShadow:
                   theme.palette.mode === "dark"
                     ? "0 4px 12px rgba(0,0,0,0.5)"
@@ -147,6 +149,7 @@ const NewTransaction = ({ setTransactions }) => {
         )}
       />
 
+      {/* Amount with spacing */}
       <TextField
         label="Amount (₹)"
         type="number"
@@ -161,9 +164,11 @@ const NewTransaction = ({ setTransactions }) => {
           ),
         }}
         sx={{
+          mt: 2, // extra margin-top for spacing
           "& .MuiInputBase-root": {
             borderRadius: "12px",
-            backgroundColor: theme.palette.mode === "dark" ? "#1e293b" : "#f7f7f7",
+            backgroundColor:
+              theme.palette.mode === "dark" ? "#1e293b" : "#f7f7f7",
             boxShadow:
               theme.palette.mode === "dark"
                 ? "0 4px 12px rgba(0,0,0,0.5)"

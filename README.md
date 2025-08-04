@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Wallet-Wizard - README</title>
-</head>
+
 <body>
   <h1>💰 Wallet-Wizard</h1>
   <p><strong>Wallet-Wizard</strong> is a personal finance tracker designed to help users manage their income, expenses, and savings efficiently.</p>
@@ -27,7 +22,7 @@
   <h2>🚀 Getting Started</h2>
   <pre>
 # Clone the repository
-git clone https://github.com/yourusername/Wallet-Wizard.git
+git clone https://github.com/Sakethphaneendra/Wallet-Wizard.git
 
 # Navigate to project folder
 cd Wallet-Wizard
@@ -43,6 +38,6 @@ npm start
   <p>Contributions are welcome! Please fork the repo and submit a pull request for review.</p>
 
   <h2>👨‍💻 Author</h2>
-  <p>Developed by <strong>Saketh</strong></p>
+  <p>Developed by <strong>Saketh Phaneendra </strong></p>
 </body>
 </html>
